@@ -1,0 +1,49 @@
+body {
+  background-color: #F2DEBA;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Caveat Brush', cursive;
+  font-weight: bold;
+  font-size: 8rem;
+  color: #4E6C50;
+  margin: 50px 0 0;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-size: 1rem;
+  color :#4E6C50;
+}
+
+img {
+  width: 200px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.dice {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.player {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+@media (max-width: 1056px) {
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .player{
+    font-size: 2rem;
+  }
+}
